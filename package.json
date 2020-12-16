@@ -1,0 +1,40 @@
+{
+  "name": "api.to-huu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www.js",
+    "dev": "npx nodemon ./bin/www.js",
+    "lint": "eslint --fix --config .eslintrc.json \"**/*.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "trungnguyen",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "joi": "^17.3.0",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.4",
+    "simpleflake": "^2.0.0"
+  },
+  "devDependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.15.0",
+    "eslint-config-google": "^0.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "nodemon": "^2.0.6",
+    "swagger-jsdoc": "^6.0.0-rc.3",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.0"
+  }
+}
